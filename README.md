@@ -24,7 +24,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Comment
-#####For your fast check, please check the video below.
+##### For your fast check, please check the video below.
 https://drive.google.com/file/d/1-5rNqOznAu4tAg1de-FB1-4WACcZzkJ8/view?usp=sharing
 1. I used Vue, Vuetify, VueRouter, Vuex for this app.
 2. To make fewer components for a maintenance and less calls to the backend server, 
