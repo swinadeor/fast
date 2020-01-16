@@ -25,7 +25,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ### Comment
 ##### For your fast check, please check the video below.
-https://drive.google.com/file/d/1-5rNqOznAu4tAg1de-FB1-4WACcZzkJ8/view?usp=sharing
+https://drive.google.com/open?id=16CJ2B5S1BOpuZXN8mzVgTdwnvVge2rZc
 1. I used Vue, Vuetify, VueRouter, Vuex for this app.
 2. To make fewer components for a maintenance and less calls to the backend server, 
     I used only two components.
