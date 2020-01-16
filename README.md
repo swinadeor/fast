@@ -36,8 +36,9 @@ https://drive.google.com/file/d/1-5rNqOznAu4tAg1de-FB1-4WACcZzkJ8/view?usp=shari
     I would prefer to separating all Vuex properties but as you see, 
     it doesn't have a lot of codes. And if I divide them, it would be harder to see in one glance
     So I just left it.
-3. In a real project, 'totalSummary' will be given by the backend server 
+4. In a real project, 'totalSummary' will be given by the backend server 
    so the API call('FETCH_TOTAL_SUMMARY') will be written on 'created' hook in 'NavBar' component.
    After the call is resolved, 'FETCH_SUMMARY' will be executed.
-4. For the main theme, I got the main colors from 'FastBill Logo' and made them as a global variable in 'plugins > vuetify.js'
-5. To use 'search' icon, I installed an npm library for 'material-design-icons-iconfont'
+5. The button text is filtered by the function 'deleteS' in 'Sections' component.   
+6. For the main theme, I got the main colors from 'FastBill Logo' and made them as a global variable in 'plugins > vuetify.js'
+7. To use 'search' icon, I installed an npm library for 'material-design-icons-iconfont'
