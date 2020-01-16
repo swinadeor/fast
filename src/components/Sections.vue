@@ -18,7 +18,7 @@
           <v-divider></v-divider>
 
           <v-card-actions>
-            <v-btn outlined color="primary" @click="addList(section.name)">Add {{section.name}}</v-btn>
+            <v-btn outlined color="primary" @click="addList(section.name)">Add {{section.name | deleteS}}</v-btn>
             <v-spacer></v-spacer>
             <v-btn outlined color="primary" @click="showAll(section.name)">Show all</v-btn>
           </v-card-actions>
@@ -38,6 +38,11 @@ export default {
         'summary'
     ])
   },
+  filters: {
+    deleteS (section) {
+      return section.slice(0, -1)
+    }
+  },
   methods: {
     showList (id) {
       alert('showList ' + id)
@@ -47,7 +52,7 @@ export default {
     },
     showAll (lists) {
       alert('showAll ' + lists)
-    }
+    },
   }
 }
 </script>
