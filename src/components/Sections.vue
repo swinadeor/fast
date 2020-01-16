@@ -33,8 +33,6 @@
 import { mapState } from 'vuex'
 export default {
   name: "Sections",
-  data: () => ({
-  }),
   computed: {
     ...mapState([
         'summary'

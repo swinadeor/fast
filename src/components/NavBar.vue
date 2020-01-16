@@ -13,10 +13,11 @@
         grow
     >
       <v-tab
-        class="accent--text"
-        active-class="primary--text"
         v-for="(s, idx) in sections"
-        :key="idx" @change="changeSection(s)">
+        :key="idx" @change="changeSection(s)"
+        active-class="primary--text"
+        class="black--text"
+      >
         {{s}}
       </v-tab>
     </v-tabs>
@@ -43,13 +44,11 @@ export default {
   computed: {
     ...mapState([
       'sections',
+      'section'
     ]),
   },
   created() {
     this.FETCH_SUMMARY()
-  },
-  mounted() {
-    this.tabTextColor()
   },
   methods: {
     ...mapMutations([
@@ -62,10 +61,6 @@ export default {
       this.SET_SECTION(section)
       this.FETCH_SUMMARY()
     },
-    tabTextColor () {
-      // const tab = document.querySelectorAll('.v-tab');
-
-    }
   }
 }
 </script>
