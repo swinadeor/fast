@@ -39,8 +39,6 @@
 import { mapState, mapMutations, mapActions } from 'vuex'
 export default {
   name: "NavBar",
-  data: () => ({
-  }),
   computed: {
     ...mapState([
       'sections',
