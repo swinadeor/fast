@@ -29,9 +29,9 @@ https://drive.google.com/file/d/1-5rNqOznAu4tAg1de-FB1-4WACcZzkJ8/view?usp=shari
 1. I used Vue, Vuetify, VueRouter, Vuex for this app.
 2. To make fewer components for a maintenance and less calls to the backend server, 
     I used only two components.
-3.  'Sections' component will be changed according to the 'SET_SECTION' mutation.
+3.  'Sections' component will be changed according to the 'summary' mutation.
     I used 'FETCH_SUMMARY' actions to filter the results. 
-    The filtered result will be assigned to 'summary' and 'summary' will be committed
+    The filtered result will be assigned to 'summary' and 'summary' will be committed.
     You can check it at 'store > index.js'. 
     I would prefer to separating all Vuex properties but as you see, 
     it doesn't have a lot of codes. And if I divide them, it would be harder to see in one glance
